@@ -1,5 +1,5 @@
 %define	_name	ufoai
-Summary:	UFO: ALIEN INVASION is a squad-based tactical strategy game in the tradition of the old X-COM PC games
+Summary:	"UFO: Alien Invasion" is a squad-based tactical strategy game in the tradition of the old X-COM PC games
 Name:		ufoai-data
 Version:	2.2
 Release:	0.1
@@ -18,7 +18,7 @@ defending Earth from a brutal alien enemy. Build up your bases,
 prepare your team, and dive head-first into the fast and flowing
 turn-based combat.
 
-UFO: ALIEN INVASION is a squad-based tactical strategy game in the
+"UFO: Alien Invasion" is a squad-based tactical strategy game in the
 tradition of the old X-COM PC games, but with a twist. This game
 combines military realism with hard science-fiction and the weirdness
 of an alien invasion. The carefully constructed turn-based system
@@ -31,9 +31,9 @@ weapons for your own ends. You will produce unique items and use them
 in combat against your enemies. If you like, you can even use them
 against your friends with multiplayer functionality.
 
-'UFO: Alien Invasion'. Endless hours of gameplay -- absolutely free.
+"UFO: Alien Invasion". Endless hours of gameplay -- absolutely free.
 
-This package contains UFO: ALIEN INVASION data files.
+This package contains "UFO: Alien Invasion" data files.
 
 %prep
 %setup -q -c
