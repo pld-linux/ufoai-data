@@ -1,15 +1,14 @@
-# TODO:
-# - pl summary and description
 %define	_name	ufoai
-Summary:	"UFO: Alien Invasion" is a squad-based tactical strategy game in the tradition of the old X-COM PC games
+Summary:	"UFO: Alien Invasion" - squad-based tactical strategy game in the tradition of the old X-COM PC games
+Summary(pl.UTF-8):	"UFO: Alien Invasion" - gra strategiczna utrzymana w tradycji starych gier X-COM z PC
 Name:		ufoai-data
 Version:	2.2.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games/Strategy
-URL:		http://ufoai.sourceforge.net/
 Source0:	http://dl.sourceforge.net/ufoai/%{_name}-%{version}-data.tar
 # Source0-md5:	02a582c9e845f264e8fd21a623651ce7
+URL:		http://ufoai.sourceforge.net/
 Requires:	ufoai = %{version}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -33,9 +32,26 @@ weapons for your own ends. You will produce unique items and use them
 in combat against your enemies. If you like, you can even use them
 against your friends with multiplayer functionality.
 
-"UFO: Alien Invasion". Endless hours of gameplay -- absolutely free.
-
 This package contains "UFO: Alien Invasion" data files.
+
+%description -l pl.UTF-8
+Jest rok 2084. Kierujesz tajną organizacją, która ma obronić Ziemię
+przed brutalnymi wrogami. Buduj swoje bazy, przygotuj swój zespół i
+wpadnij w wir szybkiej turowej walki.
+
+"UFO: Alien Invasion" to oparta o oddziały gra strategiczna utrzymana
+w tradycji starych gier X-COM z PC, ale z pewnymi zmianami. Gra łączy
+realizm militarny z ciężkim science-fiction i dziwnością inwacji
+wroga. Uważnie skonstruowany system turowy daje kontrolę nad oddziałem
+zachowując poczucie kroku i niebezpieczeństwa.
+
+W ciągu długiego czasu gracz musi prowadzić badania narażając się
+wrogom, aby odkryć ich tajemnicze cele i użyć ich potężnych broni dla
+własnych potrzeb. Gracz wytworzy unikalne przedmioty i wykorzysta je w
+walce przeciwko swoim wrogom. Można także używać ich przeciwko
+przyjaciołom w przypadku gry dla wielu graczy.
+
+Ten pakiet zawiera pliki danych gry "UFO: Alien Invasion".
 
 %prep
 %setup -q -c
